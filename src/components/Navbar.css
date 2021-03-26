@@ -98,6 +98,7 @@
   }
 
   .nav-menu.active {
+    height: 100vh;
     background: #242222;
     left: 0;
     opacity: 1;
