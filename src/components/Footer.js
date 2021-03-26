@@ -1,20 +1,15 @@
 import React from 'react';
-import '../App.css';
-import './HeroSection.css';
+import './Footer.css';
 
-function HeroSection() {
+export default function Footer() {
   return (
-    <div className="hero-container">
-      <video src="/videos/video.mp4" autoPlay loop muted />
-      <div className="hero-content">
-        <h1 className="hero-title">Hi, I am Jaim!</h1>
-        <p className="hero-description">
-          React Web Developer
-        </p>
-        <div className="hero-network">
+    <footer className="footer">
+      <div className="footer-container">
+        <p className="footer-text">Copyright 2021</p>
+        <div className="footer-network">
           <a
             href="https://github.com/jadx2"
-            className="media-link"
+            className="footer-media-link"
             target="_blank"
             rel="noreferrer"
           >
@@ -22,7 +17,7 @@ function HeroSection() {
           </a>
           <a
             href="https://twitter.com/thecatcodes"
-            className="media-link"
+            className="footer-media-link"
             target="_blank"
             rel="noreferrer"
           >
@@ -30,7 +25,7 @@ function HeroSection() {
           </a>
           <a
             href="https://www.linkedin.com/in/jaimdelmar/"
-            className="media-link"
+            className="footer-media-link"
             target="_blank"
             rel="noreferrer"
           >
@@ -38,8 +33,6 @@ function HeroSection() {
           </a>
         </div>
       </div>
-    </div>
+    </footer>
   );
 }
-
-export default HeroSection;

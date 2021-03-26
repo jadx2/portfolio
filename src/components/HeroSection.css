@@ -3,12 +3,9 @@ video {
   width: 100%;
   height: 100%;
   position: fixed;
-  z-index: 1;
 }
 
 .hero-container {
-  /* background: url('../../public/images/pexels-pixabay-417173.jpg') */
-  /*   center center/cover no-repeat; */
   height: 100vh;
   width: 100%;
   display: flex;
@@ -42,13 +39,25 @@ video {
   margin-bottom: 20px;
 }
 
-.hero-btns .btn {
-  margin: 4px;
+.media-link {
+  color: #fff;
+  font-size: 60px;
+  margin: 0.5rem;
+  transition: all 0.3s ease-out;
+}
+
+.media-link:hover {
+  color: #242424;
+  transition: all 0.3s ease-out;
 }
 
 @media screen and (max-width: 960px) {
   .hero-container .hero-title {
     font-size: 70px;
+  }
+
+  .media-link {
+    font-size: 50px;
   }
 }
 
@@ -59,22 +68,10 @@ video {
   }
 
   .hero-container .hero-description {
-    font-size: 30px;
+    font-size: 25px;
   }
 
-  /* .hero-btns { */
-  /*   display: flex; */
-  /*   flex-direction: column; */
-  /*   align-items: center; */
-  /* } */
-
-  .btn-mobile {
-    display: block;
-    text-decoration: none;
-  }
-
-  .btn {
-    width: 90%;
-    margin: 0;
+  .media-link {
+    font-size: 45px;
   }
 }
