@@ -1,0 +1,35 @@
+.stack-container {
+  position: relative;
+  background: #fff;
+  padding: 1rem;
+}
+
+.stack-title {
+  text-align: center;
+  margin: 2rem 0;
+}
+
+.stack-wrapper {
+  max-width: 1120px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 70px;
+}
+
+.stack-icon {
+  width: 70px;
+  margin: 2rem 105px;
+}
+
+@media screen and (max-width: 768px) {
+  .stack-icon {
+    margin: 2rem 57px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .stack-icon {
+    margin: 2rem 47px;
+  }
+}

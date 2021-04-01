@@ -1,6 +1,14 @@
 import React from 'react';
 import '../../App.css';
+import InfoSection from '../InfoSection';
+import Stack from '../Stack';
 
-export default function About() {
-  return <h1 className="about">About</h1>;
+function About() {
+  return (
+    <>
+      <InfoSection />
+      <Stack />
+    </>
+  );
 }
+export default About;

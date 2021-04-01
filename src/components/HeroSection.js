@@ -9,7 +9,7 @@ function HeroSection() {
       <div className="hero-content">
         <h1 className="hero-title">Hi, I am Jaim!</h1>
         <p className="hero-description">
-          React Web Developer
+          Frontend Web Developer
         </p>
         <div className="hero-network">
           <a
