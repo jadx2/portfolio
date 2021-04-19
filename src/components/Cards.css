@@ -4,9 +4,10 @@
   background: #fff;
 }
 
-.title {
+.cards__title {
   text-align: center;
-  padding-top: 2rem;
+  margin-top: 4rem;
+  color: #1a1717;
 }
 
 .cards__container {
@@ -105,19 +106,10 @@
   line-height: 24px;
 }
 
-@media only screen and (min-width: 1200px) {
-  .content__blog__container {
-    width: 84%;
+@media (max-width: 768px) {
+  .cards__title {
+    font-size: 1.7rem;
   }
-}
-
-@media only screen and (min-width: 1024px) {
-  .cards__items {
-    display: flex;
-  }
-}
-
-@media only screen and (max-width: 1024px) {
   .cards__item {
     margin-bottom: 2rem;
     max-width: 299px;

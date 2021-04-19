@@ -1,0 +1,53 @@
+.contact {
+  position: relative;
+  background-color: #fff;
+  padding: 1rem;
+}
+
+.contact__title {
+  color: #1a1717;
+  text-align: center;
+  margin: 4rem 0 2rem 0;
+}
+
+.contact__content {
+  text-align: center;
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.contact__links {
+  display: flex;
+  justify-content: center;
+  font-size: 4rem;
+}
+
+.contact__link {
+  margin: 0 0.5rem 4rem 0.5rem;
+}
+
+.github {
+  color: #1a1717;
+}
+
+.twitter {
+  color: rgb(29, 161, 242);
+}
+
+.linkedin {
+  color: #0a66c2;
+}
+
+@media (max-width: 768px) {
+  .contact__title {
+    font-size: 1.7rem;
+  }
+
+  .contact__content {
+    font-size: 1.2rem;
+  }
+
+  .contact__links {
+    font-size: 3rem;
+  }
+}
