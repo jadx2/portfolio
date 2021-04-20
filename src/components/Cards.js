@@ -16,22 +16,22 @@ function Cards() {
               path="https://jadx2.github.io/concert_capstone"
             />
             <CardItem
-              src="/images/sunset_festival.jpg"
-              text="Project made with html and css for the fictional festival"
-              label="HTML & CSS"
-              path="https://jadx2.github.io/concert_capstone"
+              src="/images/chefsattic.png"
+              text="A recipe blog"
+              label="Ruby On Rails"
+              path="https://sheltered-coast-24004.herokuapp.com"
             />
             <CardItem
-              src="/images/sunset_festival.jpg"
-              text="Project made with html and css for the fictional festival"
-              label="HTML & CSS"
-              path="https://jadx2.github.io/concert_capstone"
+              src="/images/Screenshot-Newsweek.jpg"
+              text="A clone of the 'Newsweek' newsletter"
+              label="Bootstrap"
+              path="https://jadx2.github.io/newsweek_bootstrap"
             />
             <CardItem
-              src="/images/sunset_festival.jpg"
-              text="Project made with html and css for the fictional festival"
+              src="/images/tnw.png"
+              text="A clone of 'The Next Web' magazine"
               label="HTML & CSS"
-              path="https://jadx2.github.io/concert_capstone"
+              path="https://github.com/jadx2/tnw_responsive"
             />
             <CardItem
               src="/images/sunset_festival.jpg"
