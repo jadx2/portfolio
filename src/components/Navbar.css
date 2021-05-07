@@ -100,6 +100,7 @@
   .nav-menu.active {
     height: 100vh;
     background: #242222;
+    top: 70px;
     left: 0;
     opacity: 1;
     transition: all 0.5s ease;
