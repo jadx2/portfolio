@@ -11,39 +11,24 @@ function Cards() {
           <ul className="cards__items">
             <CardItem
               src="/images/sunset_festival.jpg"
-              text="Project made with html and css for the fictional festival"
+              text="Webpage created for the Sunset Festival following responsive design. Built with Html, Sass"
               label="HTML & CSS"
-              path="https://jadx2.github.io/concert_capstone"
+              url="https://jadx2.github.io/concert_capstone"
+              repo="https://github.com/jadx2/concert_capstone"
             />
             <CardItem
               src="/images/chefsattic.png"
-              text="A recipe blog"
+              text="A recipe blog to share your recipes and rate other ones. Built with Ruby on Rails, Sass, Rspec, Capybara"
               label="Ruby On Rails"
-              path="https://sheltered-coast-24004.herokuapp.com"
+              url="https://sheltered-coast-24004.herokuapp.com"
+              repo="https://github.com/jadx2/chefs_attic"
             />
             <CardItem
               src="/images/Screenshot-Newsweek.jpg"
-              text="A clone of the 'Newsweek' newsletter"
+              text="A clone of the 'Newsweek' newsletter following a responsive design. Built with Html, Bootstrap"
               label="Bootstrap"
-              path="https://jadx2.github.io/newsweek_bootstrap"
-            />
-            <CardItem
-              src="/images/tnw.png"
-              text="A clone of 'The Next Web' magazine"
-              label="HTML & CSS"
-              path="https://github.com/jadx2/tnw_responsive"
-            />
-            <CardItem
-              src="/images/sunset_festival.jpg"
-              text="Project made with html and css for the fictional festival"
-              label="HTML & CSS"
-              path="https://jadx2.github.io/concert_capstone"
-            />
-            <CardItem
-              src="/images/sunset_festival.jpg"
-              text="Project made with html and css for the fictional festival"
-              label="HTML & CSS"
-              path="https://jadx2.github.io/concert_capstone"
+              url="https://jadx2.github.io/newsweek_bootstrap"
+              repo="https://github.com/jadx2/newsweek_bootstrap"
             />
           </ul>
         </div>

@@ -8,6 +8,7 @@ function Contact() {
       <p className="contact__content">
         Get in touch and let's build something amazing!
       </p>
+      <p className="contact__email">delmarjaim@gmail.com</p>
       <div className="contact__links">
         <a
           href="https://github.com/jadx2"

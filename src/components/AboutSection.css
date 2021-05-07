@@ -87,6 +87,7 @@
 
   .about__card {
     width: 200px;
+    margin-bottom: 2rem;
   }
 
   .about__card__item {

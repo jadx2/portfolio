@@ -16,6 +16,13 @@
   margin-bottom: 2rem;
 }
 
+.contact__email {
+  text-align: center;
+  font-size: 1.5rem;
+  color: #ed4a4a;
+  margin-bottom: 2rem;
+}
+
 .contact__links {
   display: flex;
   justify-content: center;
