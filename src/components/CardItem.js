@@ -23,16 +23,16 @@ function CardItem(props) {
               <a
                 href={props.url}
                 className="cards__item__link"
-                targe="_blank"
-                rel="nofollow"
+                target="_blank"
+                rel="noreferrer"
               >
                 Live Demo
               </a>
               <a
                 href={props.repo}
                 className="cards__item__link"
-                targe="_blank"
-                rel="nofollow"
+                target="_blank"
+                rel="noreferrer"
               >
                 Github Repo
               </a>
