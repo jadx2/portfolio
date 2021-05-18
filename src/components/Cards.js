@@ -30,6 +30,13 @@ function Cards() {
               url="https://jadx2.github.io/newsweek_bootstrap"
               repo="https://github.com/jadx2/newsweek_bootstrap"
             />
+            <CardItem
+              src="/images/bakery.png"
+              text="A web page created for Le Boulangerie bakery, using Javascript, functional programing, Html and CSS"
+              label="HTML, CSS, Javascript"
+              url="https://jadx2.github.io/restaurant-page/"
+              repo="https://github.com/jadx2/restaurant-page"
+            />
           </ul>
         </div>
       </div>
