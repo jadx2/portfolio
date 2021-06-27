@@ -16,7 +16,7 @@ function About() {
               <i className=" about__card__icon fas fa-globe"></i>
               <h3 className="about__card__title">Languages</h3>
               <div className="about__card__items">
-                <p className="about__card__item">Html5</p>
+                <p className="about__card__item">HTML5</p>
                 <p className="about__card__item">CSS3</p>
                 <p className="about__card__item">JavaScript</p>
                 <p className="about__card__item">Ruby</p>

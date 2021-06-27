@@ -11,8 +11,8 @@ function Cards() {
           <ul className="cards__items">
             <CardItem
               src="/images/sunset_festival.jpg"
-              text="Webpage created for the Sunset Festival following responsive design. Built with Html, SCSS."
-              label="HTML & CSS"
+              text="Webpage created for the Sunset Festival following responsive design. Built with HTML5, SCSS."
+              label="HTML5 & CSS"
               url="https://jadx2.github.io/concert_capstone"
               repo="https://github.com/jadx2/concert_capstone"
             />
@@ -25,29 +25,29 @@ function Cards() {
             />
             <CardItem
               src="/images/Screenshot-Newsweek.jpg"
-              text="A clone of the 'Newsweek' newsletter following a responsive design. Built with Html, Bootstrap."
+              text="A clone of the 'Newsweek' newsletter following a responsive design. Built with HTML5, Bootstrap."
               label="Bootstrap"
               url="https://jadx2.github.io/newsweek_bootstrap"
               repo="https://github.com/jadx2/newsweek_bootstrap"
             />
             <CardItem
               src="/images/bakery.png"
-              text="A web page created for Le Boulangerie bakery, using JavaScript, Functional Programing, Html and CSS."
-              label="HTML, CSS, Javascript"
+              text="A web page created for Le Boulangerie bakery, using JavaScript, Functional Programing, HTML5 and CSS3."
+              label="HTML5, CSS3, Javascript"
               url="https://jadx2.github.io/restaurant-page/"
               repo="https://github.com/jadx2/restaurant-page"
             />
             <CardItem
               src="/images/weather-app.png"
               text="A weather app that can show in C or F. Written in JavaScript and Bootstrap that makes calls to the OpenWatherMap API."
-              label="Bootstrap, Javascript, AJAX, Webpack"
+              label="Bootstrap, JavaScript, AJAX, Webpack"
               url="https://jadx2.github.io/weather-app/"
               repo="https://github.com/jadx2/weather-app"
             />
             <CardItem
               src="/images/space-eagles.jpg"
               text="Space shooter remembering that good old arcade games. Written in JavaScript and Phaser 3, Webpack as a bundler and tested with Jest."
-              label="Javascript, Webpack, Phaser 3, Jest"
+              label="JavaScript, Webpack, Phaser 3, Jest"
               url="https://space-eagles.netlify.app/"
               repo="https://github.com/jadx2/shooter-js"
             />
