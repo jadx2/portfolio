@@ -51,6 +51,20 @@ function Cards() {
               url="https://space-eagles.netlify.app/"
               repo="https://github.com/jadx2/shooter-js"
             />
+            <CardItem
+              src="/images/themealstock.jpg"
+              text="website where you can search for recipes from different parts of the world by category or ingredient. It is built in React-Redux."
+              label="React, Redux, SASS, Jest, Netlify"
+              url="https://the-meal-stock.netlify.app/"
+              repo="https://github.com/jadx2/the-meal-stock"
+            />
+            <CardItem
+              src="/images/centralkitchen.png"
+              text="Fullstack app to book online cooking classes built with React-Redux and Ruby on Rails and JWT for security purposes."
+              label="React-Redux, Jest, SASS, Ruby on Rails"
+              url="https://jadx2-central-kitchen.herokuapp.com/"
+              repo="https://github.com/jadx2/central-kitchen/tree/central-kitchen"
+            />
           </ul>
         </div>
       </div>
