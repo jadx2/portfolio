@@ -1,14 +1,14 @@
-import React from 'react';
-import './AboutSection.css';
+import '../assets/styles/AboutSection.css';
 
-function About() {
+const About = () => {
   return (
     <div className="about" id="about">
       <h1 className="about__title">About Me!</h1>
       <div className="about__container">
         <p className="about__content">
-          Hi! My name is Jaim and I love to write code, solve problems and contribute to projects. I enjoy designing and
-          to develop software that is appealing to the view and functional. Don't hesitate to contact me.
+          Hi! My name is Jaim and I love to write code, solve problems and
+          contribute to projects. I enjoy designing and to develop software that
+          is appealing to the view and functional. Don't hesitate to contact me.
         </p>
         <div className="about__cards">
           <div className="about__cards__container">
@@ -49,6 +49,6 @@ function About() {
       </div>
     </div>
   );
-}
+};
 
 export default About;
