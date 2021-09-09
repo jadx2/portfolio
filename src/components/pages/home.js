@@ -1,12 +1,10 @@
-import React from 'react';
-import '../../App.css';
 import HeroSection from '../HeroSection';
 import Cards from '../Cards';
 import About from '../AboutSection';
 import Contact from '../ContactSection';
 
-function Home() {
-  return (
+const Home = () => 
+   (
     <>
       <HeroSection />
       <Cards />
@@ -14,6 +12,5 @@ function Home() {
       <Contact />
     </>
   );
-}
 
 export default Home;
